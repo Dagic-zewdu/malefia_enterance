@@ -1,0 +1,13 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.fontLigatures": null,
+  "editor.fontWeight": 20,
+  "editor.codeLensFontSize": 2,
+  "editor.fontFamily": "consolas",
+  "editor.fontSize": 16,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}

@@ -1,0 +1,12 @@
+const router = require('express').Router()
+const Login = require('../controllers/login-controller')
+const signup = require('../controllers/signup-controller')
+const cors = require('cors')
+const { checkUserSession } = require('../controllers/auth-controller')
+router.options('/login', cors())
+router.options('/signup', cors())
+router.options('/checkuser', cors())
+router.post('/login', cors(), Login)
+router.post('/signup', cors(), signup)
+router.get('/checkuser', cors(), checkUserSession)
+module.exports = router
